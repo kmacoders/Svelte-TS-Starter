@@ -23,14 +23,9 @@ exports.copyFromPublicToDist = () => ({
 exports.htmlWebpack = () => ({
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Cart 1',
+      title: 'Svelte Starter',
       filename: 'index.html',
-      template: path.resolve(__dirname, commonPath.publicPath, 'templates/template1.ejs'),
-    }),
-    new HtmlWebpackPlugin({
-      title: 'Cart2',
-      filename: 'index2.html',
-      template: path.resolve(__dirname, commonPath.publicPath, 'templates/template2.ejs'),
+      template: path.resolve(__dirname, commonPath.publicPath, 'templates/index.ejs'),
     })
   ]
 })

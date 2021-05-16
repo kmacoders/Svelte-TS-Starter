@@ -1,5 +1,5 @@
 <script lang="ts">
-  const kmacoders: string = '123';
+  const kmacoders: string = 'Svelte TS Starter ( Webpack ) by kmacoders';
 </script>
 
 <main>

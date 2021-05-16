@@ -8,13 +8,13 @@ const plugins = require('./parts/webpack.plugin');
 const hugCommonConfig = merge([
   { name: 'ShopiyThemeStarter' },
   { entry: './src/index.ts' },
-  { output: { path: commonPath.outputPath, filename: 'build/xo-upsell-script.js' } },
+  { output: { path: commonPath.outputPath, filename: 'build/main.js' } },
   modules.loadBabel(),
   modules.loadTypescript(),
   modules.loadSvelte(),
   modules.loadScss(),
   parts.commonOptimize(),
-  plugins.extractCss({path: commonPath.outputPath, filename: 'build/xo-cart-style.css'}),
+  plugins.extractCss({path: commonPath.outputPath, filename: 'build/style.css'}),
   plugins.styleLint(),
   parts.aliasWebpack(),
   parts.statsCommon()
