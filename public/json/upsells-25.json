@@ -1,0 +1,50 @@
+{
+  "products": [
+    {
+      "id": "5927976796348",
+      "title": "gai xinh",
+      "handle": "gai-xinh",
+      "image": "https://cdn.shopify.com/s/files/1/0501/8478/2012/products/118233453_2734240913518177_1301004438338439634_o_50x50_crop_center.jpg?v=1602584920",
+      "price": "12",
+      "totalInventory": 10,
+      "description": "3423234",
+      "isDiscount": true,
+      "amountOff": 50,
+      "amountOffExt": "%",
+      "quantity": 1
+    }
+  ],
+  "productTarget": [
+    {
+      "id": "5965571293372",
+      "title": "Jisoo",
+      "image": "https://cdn.shopify.com/s/files/1/0501/8478/2012/products/65394908_2049718098670041_5617569017007964160_n_50x50_crop_center.jpg?v=1620966197"
+    },
+    {
+      "id": "5965571981500",
+      "title": "Jisoo 3",
+      "image": "https://cdn.shopify.com/s/files/1/0501/8478/2012/products/69128820_2081485628826621_8554594901008842752_n_50x50_crop_center.png?v=1603190074"
+    },
+    {
+      "id": "5965572374716",
+      "title": "Jisoo 6",
+      "image": "https://cdn.shopify.com/s/files/1/0501/8478/2012/products/120290637_2389660048009176_5426963752129885504_o_50x50_crop_center.jpg?v=1603190163"
+    }
+  ],
+  "collectionTarget": [
+    {
+      "id": "267246403772",
+      "title": "12312",
+      "image": ""
+    },
+    {
+      "id": "231211827388",
+      "title": "Home page",
+      "image": "https://cdn.shopify.com/s/files/1/0501/8478/2012/collections/giai-phap-cho-viec-di-tre-ve-som-cua-nhan-vien_1_50x50_crop_center.jpg?v=1616992501"
+    }
+  ],
+  "title": "test",
+  "active": true,
+  "id": 25,
+  "minimumPrice": ""
+}

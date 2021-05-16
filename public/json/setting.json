@@ -1,0 +1,14 @@
+{
+  "type": "horizontal",
+  "isModal": false,
+  "color": "rgba(59, 190, 91, 0.7)",
+  "title": "qwewqe",
+  "addToCart": "Add",
+  "addToCart1": "",
+  "continueToCheckout": "Continue to checkout",
+  "back": "",
+  "yourCart": "",
+  "discountLabel": "",
+  "icon": "",
+  "customCSS": ""
+}
