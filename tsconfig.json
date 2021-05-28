@@ -6,9 +6,7 @@
       "dom"
     ],
     "outDir": "./dist",
-    // "rootDir": "./src",
     "allowJs": true,
-    "module": "commonjs",
     "target": "es5",
     "strictPropertyInitialization": false,
     "sourceMap": false,
