@@ -1,5 +1,5 @@
 <script>
-  import { count } from '../store';
+  import { count } from '../stores';
 
   const onCount = () => {
     $count = $count + 1;

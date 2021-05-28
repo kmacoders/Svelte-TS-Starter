@@ -1,6 +1,6 @@
 <script lang="ts">
-  import Button from './components/Button.svelte';
-  import { count, title } from './store';
+  import Button from 'Components/Button.svelte';
+  import { count, title } from 'Stores/index';
   const kmacoders: string = 'kmacoders';
 </script>
 

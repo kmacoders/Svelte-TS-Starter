@@ -48,6 +48,7 @@ exports.aliasWebpack = () => ({
       Helpers: commonPath.helpersPath,
       Styles: commonPath.stylesPath,
       Types: commonPath.typesPath,
+      Stores: commonPath.storesPath
      }
   }
 })
