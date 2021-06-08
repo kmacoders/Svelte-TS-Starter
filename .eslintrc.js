@@ -1,10 +1,8 @@
 module.exports = {
   parser: "@typescript-eslint/parser",
   plugins: [
-    "@typescript-eslint",
-    // "eslint-comments",
-    // "promise",
-    // "unicorn",
+    "svelte3",
+    "@typescript-eslint", // Them Ts plugin
   ],
   extends: [
     "airbnb-typescript/base",
@@ -13,14 +11,12 @@ module.exports = {
   ],
   parserOptions: {
     project: './tsconfig.json',
+    extraFileExtensions: ['.svelte'],
   },
   overrides: [
     {
-      // enable the rule specifically for TypeScript files
-      "files": ["*.ts", "*.svelte"],
-      "rules": {
-        "@typescript-eslint/explicit-function-return-type": ["error"]
-      }
+      files: ['*.svelte'],
+      processor: 'svelte3/svelte3'
     }
   ],
   rules: {
@@ -45,4 +41,11 @@ module.exports = {
     "operator-linebreak": "off",
     "import/no-extraneous-dependencies": ["error", {"devDependencies": true}]
   },
+  settings: {
+    /**
+     * Pass the TypeScript package to the Svelte plugin
+     * @see https://github.com/sveltejs/eslint-plugin-svelte3
+     */
+    'svelte3/typescript': () => require('typescript'),
+  }
 };

@@ -9,7 +9,8 @@
     "build:dev:bundleanalyzer": "webpack --mode development --analyze",
     "build:bundleanalyzer": "webpack --env  --mode production --analyze",
     "docs": "npx typedoc",
-    "test": "jest --detectOpenHandles"
+    "test": "jest --detectOpenHandles",
+    "lint": "eslint . --ext .svelte"
   },
   "repository": {
     "type": "git",
@@ -62,6 +63,7 @@
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-svelte3": "^3.2.0",
     "html-webpack-plugin": "^4.5.2",
     "husky": "^4.3.8",
     "jest": "^26.6.3",
