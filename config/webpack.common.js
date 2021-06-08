@@ -6,7 +6,7 @@ const modules = require('./parts/webpack.module');
 const plugins = require('./parts/webpack.plugin');
 
 const hugCommonConfig = merge([
-  { name: 'ShopiyThemeStarter' },
+  { name: 'Svelte TS Starter Kmacoders' },
   { entry: './src/index.ts' },
   { output: { path: commonPath.outputPath, filename: 'build/app.js' } },
   modules.loadBabel(),

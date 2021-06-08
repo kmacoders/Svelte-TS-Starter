@@ -1,8 +1,8 @@
 {
-  "name": "xo-boutique",
+  "name": "Svelte-TS-Stater-Kmacoders",
   "version": "1.0.0",
-  "description": "HungDz",
-  "main": "webpack.common.js",
+  "description": "Huwng",
+  "main": "src/index.ts",
   "scripts": {
     "dev": "webpack serve --open --mode development",
     "build:prod": "webpack --mode production",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.com:xopify-themes/xo-boutique.git"
+    "url": "https://github.com/kmacoders/Svelte-TS-Starter.git"
   },
   "husky": {
     "hooks": {
@@ -29,9 +29,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/xopify-themes/xo-boutique/-/issues"
+    "url": "https://github.com/kmacoders/Svelte-TS-Starter/issues"
   },
-  "homepage": "https://gitlab.com/xopify-themes/xo-boutique",
+  "homepage": "https://github.com/kmacoders/Svelte-TS-Starter",
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
