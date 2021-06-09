@@ -3,13 +3,12 @@
 
   const onCount = () => {
     $count = $count + 1;
-  }
-
+  };
 </script>
 
 <button on:click={onCount}>Count</button>
 
-<style>
+<style lang="scss" scoped>
   button {
     outline: none;
     border: none;
